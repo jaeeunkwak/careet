@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>캐릿 클론 코드 작성</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <a href="https://www.careet.net/membership">
+        <img id="top_banner"
+            src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Banner/eeff3b54-15be-4656-a3d3-02da86b28355.png">
+    </a>
+
+    <header>
+        <nav class="header_section">
+            <div>
+                <a href="https://www.careet.net/">
+                    <img src="https://www.careet.net/content/images/common/ci2.png?v=2">
+                </a>
+                <ul class="nav_contents">
+                    <li>Contents</li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a>전체보기(최신순)</a>
+                            </li>
+                            <li>
+                                <a>주제별로 보기(큐레이션)</a>
+                            </li>
+                            <li>
+                                <a>Z세대 최신근황</a>
+                            </li>
+                            <li>
+                                <a>MZ세대 데이터 모음</a>
+                            </li>
+                            <li>
+                                <a>이주의 일 잘한 브랜드</a>
+                            </li>
+                            <li>
+                                <a>요즘 뜨는 밈</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav_items">
+                    <li>
+                        <a href="https://www.careet.net/Newsletter">Trend letter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/Dictionary">Dictionary</a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/NewsClipping">News</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="nav_items2">
+                    <li class="login">
+                        <a href="https://www.careet.net/User/Login">Login</a>
+                    </li>
+                    <li class="find">
+                        <a><img src="https://www.careet.net/content/images/common/header-search-ico.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="main_section">
+            <!--first swiper-->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.careet.net/795">
+                            <img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/99eb44ea-aea2-4c25-8cd6-e31551c47a0e_1540x852.png">
+                            <div class="text_box">
+                                <p>지금 꼭 알아야 할 트렌드</p>
+                                <p class="box_title">‘스벅’만큼 자주 간다고?<br>요즘 Z세대 사이에서 뜨는<br>‘카페 3 대장’ 알려드림!</p>
+                                <p>최근 1년 사이, Z세대가 100% 방문한 카페가 있다?<br>요즘 뜨는 프랜차이즈 카페부터 달라진 카페 이용 문화까지!<br>인터뷰와 설문조사를 통해
+                                    알차게
+                                    정리했습니다.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://www.careet.net/1181">
+                            <img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/b922f81b-f03d-4625-b20c-639c1afc67ce_1540x852.png">
+                            <div class="text_box">
+                                <p>지금 꼭 알아야 할 트렌드</p>
+                                <p class="box_title">트렌드 키워드 분석:<br>낭만은 왜<br>'z세대'의 화두가 되었을까?</p>
+                                <p>"요즘 친구들 사이에서 '낭만'이 유행어처럼 쓰이고 있어요"<br>Z세대가 생각하는 낭만의 정체 & 연관 키워드
+                                    <br>대세는 낭만 경험, 번거로움을 즐기는 z세대 여가문화
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://www.careet.net/1189">
+                            <img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202310/8cd965dc-6e6d-426c-a497-b11ea5bd35f7_1540x852.png">
+                            <div class="text_box">
+                                <p>지금 꼭 알아야 할 트렌드</p>
+                                <p class="box_title">조회수 37억 회!<br>영미권에선 '저주의 음료'가<br>유행 중?</p>
+                                <p>캐릿에만 있는 해외 트렌드!<br>현지에 사는 z세대가 아니면 알기 어려운<br>해외트렌드를 캐릿 1020해외 특파원이 직접 취재해왔습니다!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <div class="main_section">
+            <h1 class="title">관심 키워드로 콘텐츠 찾기</h1>
+            <ul class="keyword_items">
+                <li><a
+                        href="https://www.careet.net/Content/Keyword?id=%ED%95%AB%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4">핫플레이스</a>
+                </li>
+                <li><a href="https://www.careet.net/Content/Keyword?id=%EA%B3%B5%EA%B0%84">공간</a></li>
+                <li><a href="https://www.careet.net/Content/Keyword?id=%EA%B5%BF%EC%A6%88">굿즈</a></li>
+                <li><a
+                        href="https://www.careet.net/Content/Keyword?id=%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4">팝업스토어</a>
+                </li>
+                <li><a>마케팅레퍼런스</a></li>
+                <li><a>대학생</a></li>
+                <li><a>F&B</a></li>
+                <li><a>SNS</a></li>
+                <li><a>숏폼</a></li>
+                <li><a>이벤트</a></li>
+                <li><a>데이터</a></li>
+                <li><a>유튜브</a></li>
+                <li><a>패션</a></li>
+                <li><a>해외트렌드</a></li>
+                <li><a>유행템</a></li>
+                <li><a>소비트렌드</a></li>
+                <li><a>조직문화</a></li>
+                <li><a>유행어</a></li>
+                <li><a>알파세대</a></li>
+                <li><a>10대트렌드</a></li>
+            </ul>
+        </div>
+
+        <div class="main_section">
+            <h1 class="title">퇴근이 3시간 빨라지는 리스트 모음</h1>
+            <!--second swiper-->
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/c42c9869-193c-4173-a309-a6ff6823eae1_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1184">
+                            <h2 class="small_title">남자 z세대 팬덤이 큰 인플루언서 40인 리스트</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202304/f50c81b9-3d33-49fd-b003-c530b53b0359_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1059">
+                            <h2 class="small_title">남들보다 빨리 보세요! 콜라보하기 좋은 라이프스타일 굿즈 브랜드 20</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202308/f343f5a4-2d3c-4780-951c-7490ad1cf7f5_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1165">
+                            <h2 class="small_title">벤치마킹하기 좋은 업사이클링 굿즈 레퍼런스 8</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202303/a57550ca-35a5-4d48-8a99-7573f8737c6c_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1038">
+                            <h2 class="small_title">더 뜨기 전에 콜라보하세요!z세대 픽 라이징 캐릭터9</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202307/effcb441-180b-4f4e-9f78-7a531113c5a6_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1119">
+                            <h2 class="small_title">"팝업스토어 100개 가봤습니다." 마케터의 영감 기록 훔쳐보기</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <div class="main_section">
+            <a href="https://www.careet.net/membership">
+                <img id="main_banner"
+                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Banner/2cc2a89a-8329-4b41-abae-306d1f85e61e.png">
+            </a>
+        </div>
+
+        <div class="main_section">
+            <h1 class="title">반짝 유행 아님, 트렌드로 시대의 흐름 읽기</h1>
+            <!--third swiper-->
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide2">
+                        <a href="https://www.careet.net/1037">
+                            <img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202303/e1839baa-6215-4f5a-9888-ebfd93c27549_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1037">
+                            <h2 class="small_title">Z세대에 대한 오해와 편견, 캐릿 1020 자문단이 해명합니다</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/8102a405-aea0-43ca-8c09-f45fc08fd0b5_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1037">
+                            <h2 class="small_title">‘낭만’은 왜 Z세대의 화두가 되었을까?</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202308/d753cfb2-6d57-47a4-a021-fa0f1a36c403_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1037">
+                            <h2 class="small_title">Z세대 3대 욕구: 식욕 수면욕 그리고 셀프 분석 욕구!? ‘셀프 분석 세대’ 리포트</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide2">
+                        <a><img
+                                src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202304/1149bcae-5f61-4c56-99b4-aa81b22510b2_770x426.png">
+                        </a>
+                        <a href="https://www.careet.net/1037">
+                            <h2 class="small_title">X세대와 Z세대의 마음을 동시에 사로잡으려면? ‘#엄빠랑’에 주목하세요</h2>
+                        </a>
+                        <div class="bookmark">
+                            <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <div class="rank_section">
+            <h1 class="title" id="rank_title">요즘 대세! 인기 콘텐츠</h1>
+            <div class="rank_box">
+                <ul>
+                    <li>
+                        <a href="https://www.careet.net/1184">
+                            <div class="flex_box">
+                                <p>1</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/c42c9869-193c-4173-a309-a6ff6823eae1_770x426.png">
+                                <p>남자 Z세대 팬덤이 큰 인플루언서 40인 리스트</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/1181">
+                            <div class="flex_box">
+                                <p>2</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/8102a405-aea0-43ca-8c09-f45fc08fd0b5_770x426.png">
+                                <p>‘낭만’은 왜 Z세대의 화두가 되었을까?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/1185">
+                            <div class="flex_box">
+                                <p>3</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/deca04f6-3ebd-4998-a0bf-e56cbe60689f_770x426.png">
+                                <p>‘승훈이 됨’이 무슨 뜻? 유튜브 댓글에 자주 보이는 최신<br>밈 3</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://www.careet.net/1176">
+                            <div class="flex_box">
+                                <p>4</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/04ecbad3-44c8-4a96-a084-733a15752908_770x426.png">
+                                <p>'포토 부스 마케팅’ 준비 중이세요? 네컷 사진 프레임 트<br>렌드 5</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/1187">
+                            <div class="flex_box">
+                                <p>5</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/a33ec90b-7bb9-4001-9fae-c68aa7ec8bcb_770x426.png">
+                                <p>남들보다 빨리 보세요! 요즘 대학생이 주목하는 유행템 3</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.careet.net/1152">
+                            <div class="flex_box">
+                                <p>6</p>
+                                <img
+                                    src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/6ba7b654-5367-4261-8c9b-7ae5d3d44a7b_770x426.png">
+                                <p>"Z세대 팀원이 어려우세요?" Z세대 맞춤형 업무 시스템이 필<br>요합니다</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main_section">
+            <h1 class="title">새로 나온 콘텐츠</h1>
+            <div class="new_box">
+                <a href="https://www.careet.net/1186">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202310/f884f483-6911-45a2-a516-6eb135259f77_770x426.png">
+                    <p>“요즘 뭐가 유행이지” 이미지로 모아보는 분야별<br>유행템</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+                <a href="https://www.careet.net/1189">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202310/905b6757-2d3e-4b60-8389-3ca19078e37f_770x426.png">
+                    <p>조회수 37억 회! 영미권에선 ‘저주의 음료’가 유행<br>중? 캐릿에만 있는 해외 트렌드</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+                <a href="https://www.careet.net/1191">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/fdee5e47-6fe5-4387-9ef4-abc397e37aee_770x426.png">
+                    <p>“이런 오해는 억울해요!” 사회 초년생이 회사에서<br>겪은 Z세대에 대한 선입견 5</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+            </div>
+            <div class="new_box">
+                <a href="https://www.careet.net/1188">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/e2bb354e-dcf4-44d5-9e48-73e0edf7c465_770x426.png">
+                    <p>Z세대 사이에서 ‘섭외 미쳤다!’는 반응을 얻고 싶<br>다면? 섭외 마케팅 2</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+                <a href="https://www.careet.net/1192">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/7623f9b2-bf98-4b42-bb50-9a827af2b9fe_770x426.png">
+                    <p>‘이런’ 어른 되고 싶어요! 윗세대와 달라진 Z세대<br>의 롤 모델은?</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+                <a href="https://www.careet.net/1185">
+                    <img
+                        src="https://s3.ap-northeast-2.amazonaws.com/univ-careet/FileData/Picture/202309/deca04f6-3ebd-4998-a0bf-e56cbe60689f_770x426.png">
+                    <p>‘승훈이 됨’이 무슨 뜻? 유튜브 댓글에 자주 보이는<br>최신 밈 3</p>
+                    <div class="bookmark">
+                        <img src="https://www.careet.net/content/images/common/header-bookmark-ico2.png">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer_top">
+            <p>업무에 당장 써먹을 수 있는 요즘 트렌드가 궁금하다면?</p>
+            <div>
+                <input id="button0" , type="text" , placeholder="Your email address">
+                <button id="button1" , data-modal="edmadmit">트렌드 레터 구독</button>
+            </div>
+        </div>
+        <div class="footer_grid">
+            <ul>
+                <li class="grid_box">
+                    <a href="https://www.careet.net/Notice">
+                        <p>Notice</p>
+                        <p>[당첨자 발표] 캐릿 3주년 역조공 이벤트</p>
+                    </a>
+                </li>
+                <li class="grid_box">
+                    <a href="https://www.careet.net/QNA">
+                        <p>Contact Us</p>
+                        <p>원하는 주제를 건의하거나 더 궁금한 점을 문의하고 싶을 때,
+                            <br>광고, 마케팅, 컨설팅 문의도 캐릿은 언제든 환영합니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="grid_box">
+                    <a href="https://www.careet.net/About">
+                        <p>About Careet</p>
+                        <p>트렌드 당일 배송 미디어 캐릿은 MZ세대 마이크로 트렌드와 인사이트를
+                            <br>전달하기 위해 늘 최선을 다합니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="grid_box">
+                    <a href="https://www.careet.net/FAQ">
+                        <p>FAQ</p>
+                        <p>궁금한 사항을 모아 한번에 보여드립니다.</p>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p>(주)대학내일 | 제호: 캐릿(Careet) | 등록번호: 서울 아52992 | 등록일자: 2020년 4월 3일 | 발행인/편집인: 김영훈 | 대표자명: 김영훈 | 청소년 보호 책임자 :
+                홍승우 | 발행일자: 2020년 4월 3일</p>
+            <p>주소: 서울 마포구 독막로 331, 마스터즈타워 3층 | 전화번호: 02-735-1031 | 사업자번호: 101-86-28789 | 이메일: careet@careet.net</p>
+        </div>
+        <div class="footer_bottom2">
+            <p>개인정보처리방침 | 이용약관 | 저작권 정책 | 청소년보호정책 ©UNIVTOMORROW. ALL RIGHTS RESERVED.</p>
+            <ul class="sns_box">
+                <li>
+                    <a href="https://www.facebook.com/careet.official/">
+                        <img src="https://www.careet.net/content/images/common/sns-btn-image-02.png?v=1">
+                    </a>
+                    <a href="https://twitter.com/Careet_media">
+                        <img src="https://www.careet.net/content/images/common/sns-btn-image-03.png?v=1">
+                    </a>
+                    <a href="https://www.instagram.com/careet.official/">
+                        <img src="https://www.careet.net/content/images/common/sns-btn-image-04.png?v=1">
+                    </a>
+                    <a href="https://www.youtube.com/c/%EC%BA%90%EB%A6%BFCareet/featured">
+                        <img src="https://www.careet.net/content/images/common/sns-btn-image-05.png?v=1">
+                    </a>
+                    <a href="https://contents.premium.naver.com/careets/insight">
+                        <img src="https://www.careet.net/content/images/common/sns-btn-image-01.png?v=1">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 16,
+            loop: true,
+        });
+    </script>
+
+
+    <script>
+        let node = document.querySelectorAll(".nav_contents");
+        let node2 = document.querySelectorAll(".nav_contents > li > ul");
+        node.forEach((element, index) => {
+            element.addEventListener("mouseover", () => {
+                node2[index].style.height = node2[index].scrollHeight + "px";
+            });
+            element.addEventListener("mouseout", () => {
+                node2[index].style.height = "0px";
+            });
+        });
+    </script>
+
+    <script>
+        let node3 = document.querySelectorAll(".box_title");
+        node3.forEach((element, index) => {
+            element.addEventListener("mouseover", () => {
+                node3[index].style.color = "#f45908";
+            });
+            element.addEventListener("mouseout", () => {
+                node3[index].style.color = "black";
+            });
+        })
+    </script>
+
+    <script>
+        let node4 = document.querySelector(".keyword_items > li > a");
+        node4.addEventListener("mouseover", () => {
+            node4.style.background = "#f45908";
+            node4.style.color = "white";
+            node4.style.border = "none";
+        });
+        node4.addEventListener("mouseout", () => {
+            node4.style.background = "white";
+            node4.style.color = "#cecece";
+            node4.style.border = "1px solid #cecece";
+        });
+
+    </script>
+
+</body>
+
+</html>
